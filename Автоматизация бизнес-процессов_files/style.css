@@ -1,0 +1,108 @@
+.autocomplete-suggestions {
+  background-color: #fff;
+  overflow: hidden;
+  overflow-y: auto;
+  border: 0.0625rem solid #e0e0e0; }
+  @media (min-width: 544px) {
+    .autocomplete-suggestions {
+      width: auto !important; } }
+  @media (min-width: 1200px) {
+    .autocomplete-suggestions {
+      max-width: 51.5625rem; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .autocomplete-suggestions {
+    max-width: 42.1875rem; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .autocomplete-suggestions {
+    max-width: 43.125rem; } }
+
+@media (min-width: 544px) and (max-width: 767px) {
+  .autocomplete-suggestions {
+    max-width: 34.125rem; } }
+  .autocomplete-suggestions .autocomplete-suggestion {
+    display: table-row; }
+    @media (min-width: 544px) {
+      .autocomplete-suggestions .autocomplete-suggestion {
+        white-space: nowrap; } }
+  .autocomplete-suggestions .autocomplete-selected {
+    background: #f0f0f0; }
+  .autocomplete-suggestions strong {
+    font-weight: normal;
+    color: #ffb400; }
+  .autocomplete-suggestions > div > div,
+  .autocomplete-suggestions span {
+    padding: 0.125rem 0.3125rem;
+    display: table-cell; }
+  .autocomplete-suggestions span {
+    padding-right: 1.25rem; }
+
+.ui-slider {
+  position: relative;
+  border: 0.0625rem solid #0095ff;
+  margin: 0.4375rem 0.625rem;
+  height: 0.375rem;
+  border-radius: 2px; }
+
+.ui-slider .ui-slider-handle {
+  position: absolute;
+  width: 1.25rem;
+  height: 1.25rem;
+  background: #c9e7fc;
+  border: 0.25rem solid #0095ff;
+  border-radius: 50%;
+  top: -0.5rem;
+  margin-left: -0.5625rem;
+  cursor: pointer; }
+
+.ui-slider .ui-slider-range {
+  position: absolute;
+  background-color: #ffb400;
+  height: 100%; }
+	
+.sort-select {
+    display: inline-block;
+    max-width: 100%;
+    padding: 0.375rem 1.95rem .375rem .75rem;
+    padding-right: .75rem \9;
+    color: #55595c;
+    vertical-align: middle;
+    background-image: none \9;
+    border: 1px solid #CCCCCC;
+	margin-bottom: 15px;
+}
+
+.sort-select:focus {
+  border-color: #51a7e8;
+  outline: none; }
+.sort-select::-ms-expand {
+   opacity: 0; }
+
+.flash_error{
+color: #cb0d14;
+padding: 8px 14px 8px 14px;
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+background-color: #fff713;
+border: 1px solid #fff713;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+display: inline-block;
+font-weight: 600;
+    margin: 5px;
+}
+
+.flash_message{
+color: #cb0d14;
+padding: 8px 14px 8px 14px;
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+background-color: #fff713;
+border: 1px solid #fff713;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+display: inline-block;
+font-weight: 600;
+    margin: 5px;
+}
